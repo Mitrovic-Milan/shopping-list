@@ -1,0 +1,23 @@
+.shoppinglist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.shopping__list {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: 200;
+  cursor: pointer;
+  padding: 0.6rem 1.3rem;
+  color: azure;
+  background-color: black;
+  border: none;
+  transition: 0.4s;
+}
+
+.shopping__list:hover {
+  background-color: rgb(72, 11, 11);
+}
